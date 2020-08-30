@@ -6,32 +6,29 @@
 #### 软件架构
 软件架构说明
 
-
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0830/205015_8540ae9d_500345.png "mirror.png")
 #### 安装教程
+yum install gcc automake make kernel-devel -y
+make
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+rmmod pf_ring
+insmod pf_ring.ko
+./adddev eth0 eth1 52:54:00:94:41:ab 0 
+eth0:被镜像口
+eth1:镜像数据出口
+52:54:00:94:41:ab   ： 数据接收主机mac 需要换成自己的主机的mac
+#### 加军魂微信，代码为收费代码,费用500
+![加军魂微信](https://images.gitee.com/uploads/images/2020/0830/210033_c0a20278_500345.jpeg "junhun.jpg")
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+#####付款
+![微信支付](https://images.gitee.com/uploads/images/2020/0830/210901_3429dba3_500345.jpeg "weixin.jpg")
 
 
-#### 码云特技
+![支付宝支付](https://images.gitee.com/uploads/images/2020/0830/210919_92588f0d_500345.jpeg "zhifubao.jpg")
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+
