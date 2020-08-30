@@ -2,7 +2,7 @@
 
 #### 介绍
 网口镜像,阿里云、腾讯云、移动云...其它云.服务器(限制linux)网口数据镜像到另一台服务器
-aliyun   tengxunyun   mirror   ids ips  
+aliyun   tengxunyun   mirror   ids ips  网络镜像 
 
 #### 软件架构
 软件架构说明
